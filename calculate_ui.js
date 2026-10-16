@@ -5,6 +5,8 @@ var navbarLink = document.createElement("li");
 navbar.appendChild(navbarLink);
 navbarLink.className = "navbar__link";
 	
+console.log('Calculating total amount spent on Shopee orders...');
+
 var total = 0;
 var order = 0;
 function calculate(next){
